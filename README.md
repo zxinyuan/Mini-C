@@ -1,7 +1,8 @@
 # Mini-C
 
 Project Files:
-src:
+
+src:  
 Ast.hs - grammar design and pretty show
 
 CParser.hs - parser for Ast
@@ -10,7 +11,7 @@ ASTInterpreter.hs - evaluation for Ast
 
 CCompiler.hs - compilation for Ast to Intermediate Code
 
-tests:
+tests:  
 ParserTests.hs - 15 test cases that show pretty show parses to the same result
 
 AstInterperterTests.hs - 12 test cases that evaluate to the same result as ICInterpreter
