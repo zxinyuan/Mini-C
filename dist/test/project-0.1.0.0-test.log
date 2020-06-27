@@ -1,0 +1,58 @@
+Test suite test: RUNNING...
+allTests
+  IcInterpreterTest
+    ["z = 12"]:                  OK
+  AstInterperterTests
+    ast interpret for test1:     OK
+    ast interpret for test2:     OK
+    ast interpret for test3:     OK
+    ast interpret for test4:     OK
+    ast interpret for test5:     OK
+    ast interpret for test6:     OK
+    ast interpret for test7:     OK
+    ast interpret for test8:     OK
+    ast interpret for test9:     OK
+    ast interpret for test10:    OK
+    ast interpret for test11:    OK
+    ast interpret for test12:    OK (0.08s)
+  CompilerTests
+    compile for test1:           OK
+    compile for test2:           OK
+    compile for test3:           OK
+    compile for test4:           OK
+    compile for test5:           OK
+    compile for test6:           OK
+    compile for test7:           OK
+    compile for test8:           OK
+    compile for test9:           OK
+  FeaturesTests
+    shorter intermediate code:   OK
+    shorter intermediate code:   OK
+    shorter intermediate code:   OK
+    shorter intermediate code:   OK
+    shorter intermediate code:   OK
+    shorter intermediate code:   OK
+    shorter intermediate code:   OK
+    shorter intermediate code:   OK
+    parser for floats:           OK
+    calculation with floats:     OK
+  ParserTests
+    prettyShow parse for test1:  OK
+    prettyShow parse for test2:  OK
+    prettyShow parse for test3:  OK
+    prettyShow parse for test4:  OK
+    prettyShow parse for test5:  OK
+    prettyShow parse for test6:  OK
+    prettyShow parse for test7:  OK
+    prettyShow parse for test8:  OK
+    prettyShow parse for test9:  OK
+    prettyShow parse for test10: OK
+    prettyShow parse for test11: OK
+    prettyShow parse for test12: OK
+    prettyShow parse for test13: OK
+    prettyShow parse for test14: OK
+    prettyShow parse for test15: OK
+
+All 47 tests passed (0.09s)
+Test suite test: PASS
+Test suite logged to: dist/test/project-0.1.0.0-test.log
